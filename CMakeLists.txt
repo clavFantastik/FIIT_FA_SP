@@ -22,7 +22,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(nlohmann_json)
 
-find_package(Boost COMPONENTS system container REQUIRED) # Ставить через vcpkg
+#find_package(Boost COMPONENTS system container REQUIRED) # Ставить через vcpkg
 
 add_subdirectory(allocator)
 add_subdirectory(arithmetic)
